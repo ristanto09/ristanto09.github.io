@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.preloader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    /* 10% of viewport width */
+    height: 200px;
+    /* 10% of viewport height */
+    transform: translate(-50%, -50%);
+    /* Centering the preloader */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 9999;
+}
+
+.content {
+    display: none;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+/* Aturan umum untuk menyembunyikan dan menampilkan berdasarkan media query */
+
+/* Sembunyikan elemen .desktop di perangkat mobile */
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: block;
+}
+
+/* Tampilkan elemen .mobile dan sembunyikan .desktop di perangkat mobile */
+@media screen and (max-width: 768px) {
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+}
