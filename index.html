@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/lottie-web@5.7.6/build/player/lottie.min.js"></script>
 </head>
+
 <body>
     <!-- Preloader -->
     <div class="preloader" id="preloader">
@@ -16,19 +18,47 @@
     <!-- Main Content -->
     <div class="content" id="content">
         <div class="mobile">
-            <img src="assets/img/portofolio/m1.jpg" alt="">
-            <img src="assets/img/portofolio/m2.jpg" alt="">
-            <img src="assets/img/portofolio/m3.jpg" alt="">
-            <img src="assets/img/portofolio/m4.jpg" alt="">
-            <img src="assets/img/portofolio/m5.jpg" alt="">
+            <picture>
+                <source media="(max-width: 768px)" srcset="assets/img/portofolio/m1.jpg">
+                <img src="assets/img/portofolio/m1.jpg" alt="Gambar Mobile 1">
+            </picture>
+            <picture>
+                <source media="(max-width: 768px)" srcset="assets/img/portofolio/m2.jpg">
+                <img src="assets/img/portofolio/m2.jpg" alt="Gambar Mobile 2">
+            </picture>
+            <picture>
+                <source media="(max-width: 768px)" srcset="assets/img/portofolio/m3.jpg">
+                <img src="assets/img/portofolio/m3.jpg" alt="Gambar Mobile 3">
+            </picture>
+            <picture>
+                <source media="(max-width: 768px)" srcset="assets/img/portofolio/m4.jpg">
+                <img src="assets/img/portofolio/m4.jpg" alt="Gambar Mobile 4">
+            </picture>
+            <picture>
+                <source media="(max-width: 768px)" srcset="assets/img/portofolio/m5.jpg">
+                <img src="assets/img/portofolio/m5.jpg" alt="Gambar Mobile 5">
+            </picture>
         </div>
         <div class="desktop">
-            <img src="assets/img/portofolio/d1.jpg" alt="">
-            <img src="assets/img/portofolio/d2.jpg" alt="">
-            <img src="assets/img/portofolio/d3.jpg" alt="">
-            <img src="assets/img/portofolio/d4.jpg" alt="">
+            <picture>
+                <source media="(min-width: 769px)" srcset="assets/img/portofolio/d1.jpg">
+                <img src="assets/img/portofolio/d1.jpg" alt="Gambar Desktop 1">
+            </picture>
+            <picture>
+                <source media="(min-width: 769px)" srcset="assets/img/portofolio/d2.jpg">
+                <img src="assets/img/portofolio/d2.jpg" alt="Gambar Desktop 2">
+            </picture>
+            <picture>
+                <source media="(min-width: 769px)" srcset="assets/img/portofolio/d3.jpg">
+                <img src="assets/img/portofolio/d3.jpg" alt="Gambar Desktop 3">
+            </picture>
+            <picture>
+                <source media="(min-width: 769px)" srcset="assets/img/portofolio/d4.jpg">
+                <img src="assets/img/portofolio/d4.jpg" alt="Gambar Desktop 4">
+            </picture>
         </div>
     </div>
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
